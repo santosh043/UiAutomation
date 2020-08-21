@@ -1,0 +1,721 @@
+2020-08-21 23:59:20,282 INFO  [WebActions] inside openBrowser() method 
+2020-08-21 23:59:41,881 INFO  [WebActions] chrome browser initialized 
+2020-08-21 23:59:46,810 INFO  [HomePage] inside verifyHomePage() 
+2020-08-21 23:59:46,810 INFO  [WebActions] inside isElementPresent() method 
+2020-08-21 23:59:47,531 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-21 23:59:47,531 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-21 23:59:47,531 INFO  [HomePage] inside menuFlights() 
+2020-08-21 23:59:47,531 INFO  [WebActions] inside getElement() method 
+2020-08-21 23:59:47,626 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //a[text()='Flights']] 
+2020-08-21 23:59:48,636 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-21 23:59:48,636 INFO  [HomePage] inside radioOneWay() 
+2020-08-21 23:59:48,636 INFO  [WebActions] inside getElement() method 
+2020-08-21 23:59:49,264 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-21 23:59:49,378 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-21 23:59:49,378 INFO  [HomePage] inside txtbxFrom() 
+2020-08-21 23:59:49,378 INFO  [WebActions] inside getElement() method 
+2020-08-21 23:59:49,440 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //input[@id='from1']] 
+2020-08-21 23:59:49,634 INFO  [HomePage] inside txtbxFrom() 
+2020-08-21 23:59:49,634 INFO  [WebActions] inside getElement() method 
+2020-08-21 23:59:49,705 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //input[@id='from1']] 
+2020-08-21 23:59:51,304 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-21 23:59:51,304 INFO  [HomePage] inside txtbxTo() 
+2020-08-21 23:59:51,305 INFO  [WebActions] inside getElement() method 
+2020-08-21 23:59:51,359 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //input[@id='to1']] 
+2020-08-21 23:59:51,732 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:00:00,447 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:00:00,451 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:00:07,932 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:00:13,702 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:00:13,705 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:00:21,076 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:00:26,695 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:00:26,699 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:00:26,701 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:00:34,143 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:00:44,077 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:00:50,015 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:00:57,762 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:00:59,968 INFO  [HomePage] inside noThanks() 
+2020-08-22 00:00:59,972 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:01:07,466 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //span[text()='No Thanks']] 
+2020-08-22 00:01:13,296 INFO  [HomePage] inside flightList() 
+2020-08-22 00:01:13,298 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:01:20,753 INFO  [WebActions] Webelement founded = [[[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']]] 
+2020-08-22 00:01:26,711 INFO  [HomePage] inside dateReview() 
+2020-08-22 00:01:26,715 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:01:34,158 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (7381f31f5b37fd77ae51c76a4d6c9fc0)] -> xpath: //div[@class='src__Box-sc-1sbtrzs-0 fsZetV']] 
+2020-08-22 00:08:34,545 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:08:57,613 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:09:03,730 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:09:03,730 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:09:04,476 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:09:04,476 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:09:04,476 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:09:04,476 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:05,429 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:09:07,463 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:09:07,464 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:09:07,464 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:07,919 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:09:08,127 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:09:08,127 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:09:08,128 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:08,357 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:09:08,476 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:09:08,477 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:08,547 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:09:08,886 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:09:08,886 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:09:08,886 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:08,939 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:09:09,252 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:09:09,253 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:09:09,253 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:09,315 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:09:09,435 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:09:09,436 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:10,066 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:09:10,227 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:09:10,228 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:09:10,228 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:10,318 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:09:10,636 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:09:10,794 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:09:14,943 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:09:14,943 INFO  [HomePage] inside noThanks() 
+2020-08-22 00:09:14,943 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:15,044 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //span[text()='No Thanks']] 
+2020-08-22 00:09:15,205 INFO  [HomePage] inside flightList() 
+2020-08-22 00:09:15,205 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:15,287 INFO  [WebActions] Webelement founded = [[[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']]] 
+2020-08-22 00:09:17,662 INFO  [HomePage] inside getReviewPageDate() 
+2020-08-22 00:09:17,662 INFO  [HomePage] inside dateReview() 
+2020-08-22 00:09:17,662 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:09:19,349 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e81e206b3a059866f8559fde5bd63c88)] -> xpath: //div[@class='src__Box-sc-1sbtrzs-0 fsZetV']] 
+2020-08-22 00:09:19,373 INFO  [HomePage] reviewDate=Fri - Sep 25th, 2020 
+2020-08-22 00:09:19,373 INFO  [HomePage] modifiedDate= Sep 25 2020 
+2020-08-22 00:12:46,482 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:12:56,858 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:13:02,481 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:13:02,481 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:13:02,481 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:13:02,879 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:13:02,879 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:13:02,879 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:13:02,879 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:13:02,949 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (9d11563ae0a6ae637043d45bcc411f82)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:13:05,486 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:13:05,486 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:13:05,486 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:13:06,193 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (9d11563ae0a6ae637043d45bcc411f82)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:13:06,346 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:13:06,346 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:13:06,346 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:13:06,411 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (9d11563ae0a6ae637043d45bcc411f82)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:13:06,505 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:13:06,505 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:13:06,587 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (9d11563ae0a6ae637043d45bcc411f82)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:13:06,926 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:13:06,926 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:13:06,926 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:13:06,983 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (9d11563ae0a6ae637043d45bcc411f82)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:13:07,277 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:13:07,277 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:13:07,277 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:13:07,348 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (9d11563ae0a6ae637043d45bcc411f82)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:13:07,479 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:13:07,480 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:13:08,117 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (9d11563ae0a6ae637043d45bcc411f82)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:13:08,301 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:13:08,302 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:13:08,302 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:13:08,384 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (9d11563ae0a6ae637043d45bcc411f82)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:13:08,600 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:13:08,686 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:13:38,801 ERROR [WebActions]  isElementPresent() failed. Exception=Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id='signUpButton'] (tried for 10 second(s) with 500 milliseconds interval) 
+2020-08-22 00:13:38,801 INFO  [HomePage] inside flightList() 
+2020-08-22 00:13:38,801 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:08,811 ERROR [WebActions] Webelement not founded Exception = Expected condition failed: waiting for visibility of element located by By.xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption'] (tried for 10 second(s) with 500 milliseconds interval) 
+2020-08-22 00:14:27,793 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:14:33,307 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:14:38,120 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:14:38,121 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:14:38,121 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:14:38,574 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:14:38,575 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:14:38,575 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:14:38,575 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:38,850 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:14:40,156 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:14:40,156 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:14:40,156 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:40,794 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:14:42,680 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:14:42,680 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:14:42,680 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:42,783 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:14:42,861 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:14:42,861 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:42,907 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:14:43,245 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:14:43,245 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:14:43,245 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:43,297 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:14:43,631 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:14:43,631 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:14:43,631 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:43,688 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:14:43,805 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:14:43,805 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:44,422 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:14:44,571 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:14:44,571 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:14:44,571 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:44,654 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:14:44,839 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:14:44,950 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:14:48,863 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:14:48,863 INFO  [HomePage] inside noThanks() 
+2020-08-22 00:14:48,863 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:48,996 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //span[text()='No Thanks']] 
+2020-08-22 00:14:49,114 INFO  [HomePage] inside flightList() 
+2020-08-22 00:14:49,115 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:49,203 INFO  [WebActions] Webelement founded = [[[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']]] 
+2020-08-22 00:14:51,522 INFO  [HomePage] inside getReviewPageDate() 
+2020-08-22 00:14:51,522 INFO  [HomePage] inside dateReview() 
+2020-08-22 00:14:51,522 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:14:53,131 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e833bbc19589805e590624b786702eb8)] -> xpath: //div[@class='src__Box-sc-1sbtrzs-0 fsZetV']] 
+2020-08-22 00:14:53,166 INFO  [HomePage] reviewDate=Fri - Sep 25th, 2020 
+2020-08-22 00:14:53,166 INFO  [HomePage] modifiedDate= Sep 25 2020 
+2020-08-22 00:17:06,002 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:17:11,872 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:17:20,399 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:17:20,399 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:17:20,401 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:17:20,653 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:17:20,653 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:17:20,654 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:17:20,654 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:20,716 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:17:23,882 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:17:23,882 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:17:23,882 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:24,405 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:17:24,540 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:17:24,540 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:17:24,540 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:24,823 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:17:24,932 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:17:24,932 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:25,019 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:17:25,346 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:17:25,346 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:17:25,347 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:26,761 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:17:27,114 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:17:27,114 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:17:27,114 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:27,182 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:17:27,290 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:17:27,291 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:27,911 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:17:28,103 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:17:28,103 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:17:28,103 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:28,202 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:17:28,398 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:17:28,540 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:17:33,374 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:17:33,374 INFO  [HomePage] inside noThanks() 
+2020-08-22 00:17:33,374 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:33,472 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //span[text()='No Thanks']] 
+2020-08-22 00:17:33,667 INFO  [HomePage] inside flightList() 
+2020-08-22 00:17:33,668 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:33,763 INFO  [WebActions] Webelement founded = [[[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']]] 
+2020-08-22 00:17:36,187 INFO  [HomePage] inside getReviewPageDate() 
+2020-08-22 00:17:36,187 INFO  [HomePage] inside dateReview() 
+2020-08-22 00:17:36,187 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:17:37,778 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2cd8b49b65015edf7ef1dbf3323f8919)] -> xpath: //div[@class='src__Box-sc-1sbtrzs-0 fsZetV']] 
+2020-08-22 00:17:37,808 INFO  [HomePage] reviewDate=Fri - Sep 25th, 2020 
+2020-08-22 00:17:37,808 INFO  [HomePage] modifiedDate= Sep 25 2020 
+2020-08-22 00:20:07,282 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:20:17,988 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:20:29,669 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:20:29,669 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:20:29,669 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:20:29,968 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:20:29,969 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:20:29,969 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:20:29,969 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:20:30,074 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b04cfcdfcf84cdca0a7f4cefb49b2917)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:20:32,348 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:20:32,348 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:20:32,348 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:20:33,374 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b04cfcdfcf84cdca0a7f4cefb49b2917)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:20:33,713 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:20:33,713 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:20:33,713 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:20:33,802 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b04cfcdfcf84cdca0a7f4cefb49b2917)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:20:33,927 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:20:33,927 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:20:33,994 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b04cfcdfcf84cdca0a7f4cefb49b2917)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:20:34,344 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:20:34,344 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:20:34,344 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:20:34,401 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b04cfcdfcf84cdca0a7f4cefb49b2917)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:20:34,692 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:20:34,692 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:20:34,692 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:20:34,768 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b04cfcdfcf84cdca0a7f4cefb49b2917)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:20:34,908 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:20:34,908 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:20:35,570 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b04cfcdfcf84cdca0a7f4cefb49b2917)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:20:35,769 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:20:35,769 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:20:35,769 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:20:36,016 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b04cfcdfcf84cdca0a7f4cefb49b2917)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:20:36,285 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:20:36,328 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:20:46,371 ERROR [WebActions]  isElementPresent() failed. Exception=Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id='signUpButton'] (tried for 10 second(s) with 500 milliseconds interval) 
+2020-08-22 00:20:46,371 INFO  [HomePage] inside flightList() 
+2020-08-22 00:20:46,371 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:00,993 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:21:06,409 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:21:11,282 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:21:11,283 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:21:11,283 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:21:12,179 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:21:12,179 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:21:12,179 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:21:12,179 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:12,266 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:21:13,098 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:21:13,098 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:21:13,098 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:13,773 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:21:14,606 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:21:14,606 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:21:14,606 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:14,699 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:21:14,788 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:21:14,788 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:14,854 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:21:15,195 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:21:15,195 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:21:15,195 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:15,255 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:21:15,536 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:21:15,536 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:21:15,536 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:15,661 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:21:15,790 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:21:15,790 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:16,420 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:21:16,574 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:21:16,575 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:21:16,575 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:16,705 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:21:16,976 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:21:17,119 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:21:20,855 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:21:20,855 INFO  [HomePage] inside noThanks() 
+2020-08-22 00:21:20,855 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:20,925 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //span[text()='No Thanks']] 
+2020-08-22 00:21:21,099 INFO  [HomePage] inside flightList() 
+2020-08-22 00:21:21,100 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:21,180 INFO  [WebActions] Webelement founded = [[[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']]] 
+2020-08-22 00:21:46,462 INFO  [HomePage] inside getReviewPageDate() 
+2020-08-22 00:21:47,700 INFO  [HomePage] inside dateReview() 
+2020-08-22 00:21:47,705 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:21:55,346 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (68f8263b800afa951f11ee66469d5fbb)] -> xpath: //div[@class='src__Box-sc-1sbtrzs-0 fsZetV']] 
+2020-08-22 00:22:04,519 INFO  [HomePage] reviewDate=Fri - Sep 25th, 2020 
+2020-08-22 00:22:16,799 INFO  [HomePage] modifiedDate= Sep 25 2020 
+2020-08-22 00:25:00,524 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:25:06,023 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:25:14,383 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:25:14,383 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:25:14,383 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:25:15,076 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:25:15,077 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:25:15,077 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:25:15,077 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:25:15,168 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (755e8fdcc3d8fca6a410ce6c96e92a9a)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:25:16,604 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:25:16,605 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:25:16,605 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:25:17,308 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (755e8fdcc3d8fca6a410ce6c96e92a9a)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:25:17,501 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:25:17,501 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:25:17,501 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:25:17,585 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (755e8fdcc3d8fca6a410ce6c96e92a9a)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:25:17,701 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:25:17,701 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:25:17,831 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (755e8fdcc3d8fca6a410ce6c96e92a9a)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:25:19,039 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:25:19,039 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:25:19,039 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:25:19,103 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (755e8fdcc3d8fca6a410ce6c96e92a9a)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:25:19,388 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:25:19,388 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:25:19,388 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:25:19,459 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (755e8fdcc3d8fca6a410ce6c96e92a9a)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:25:19,605 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:25:19,605 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:25:20,322 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (755e8fdcc3d8fca6a410ce6c96e92a9a)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:26:33,462 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:26:39,019 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:26:48,112 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:26:48,113 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:26:48,113 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:26:48,404 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:26:48,404 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:26:48,404 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:26:48,404 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:26:48,541 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (fce3656bffb694c205076c4c6acf11cb)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:26:50,256 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:26:50,256 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:26:50,257 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:26:50,862 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (fce3656bffb694c205076c4c6acf11cb)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:26:51,059 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:26:51,060 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:26:51,060 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:26:51,152 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (fce3656bffb694c205076c4c6acf11cb)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:26:51,258 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:26:51,258 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:26:51,893 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (fce3656bffb694c205076c4c6acf11cb)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:26:52,232 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:26:52,233 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:26:52,233 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:26:52,294 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (fce3656bffb694c205076c4c6acf11cb)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:26:52,584 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:26:52,584 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:26:52,584 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:26:52,657 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (fce3656bffb694c205076c4c6acf11cb)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:26:52,801 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:26:52,801 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:26:53,440 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (fce3656bffb694c205076c4c6acf11cb)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:26:53,624 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:26:53,624 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:26:53,624 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:26:53,777 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (fce3656bffb694c205076c4c6acf11cb)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:26:54,015 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:26:54,149 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:27:12,806 ERROR [WebActions]  isElementPresent() failed. Exception=Expected condition failed: waiting for visibility of element located by By.xpath: //button[@id='signUpButton'] (tried for 10 second(s) with 500 milliseconds interval) 
+2020-08-22 00:27:12,806 INFO  [HomePage] inside flightList() 
+2020-08-22 00:27:12,806 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:23,036 ERROR [WebActions] Webelement not founded Exception = Expected condition failed: waiting for visibility of element located by By.xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption'] (tried for 10 second(s) with 500 milliseconds interval) 
+2020-08-22 00:27:23,888 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:27:29,458 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:27:34,421 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:27:34,421 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:27:34,421 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:27:34,860 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:27:34,860 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:27:34,861 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:27:34,861 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:34,924 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:27:36,052 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:27:36,052 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:27:36,052 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:36,737 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:27:37,542 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:27:37,542 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:27:37,542 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:37,618 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:27:37,707 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:27:37,708 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:37,768 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:27:38,092 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:27:38,092 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:27:38,092 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:38,153 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:27:38,485 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:27:38,486 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:27:38,486 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:38,552 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:27:38,671 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:27:38,671 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:39,296 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:27:39,463 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:27:39,463 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:27:39,464 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:39,555 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:27:39,826 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:27:39,976 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:27:43,846 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:27:43,846 INFO  [HomePage] inside noThanks() 
+2020-08-22 00:27:43,846 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:43,924 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //span[text()='No Thanks']] 
+2020-08-22 00:27:44,114 INFO  [HomePage] inside flightList() 
+2020-08-22 00:27:44,114 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:27:44,200 INFO  [WebActions] Webelement founded = [[[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']]] 
+2020-08-22 00:27:53,949 INFO  [HomePage] inside getReviewPageDate() 
+2020-08-22 00:27:54,540 INFO  [HomePage] inside dateReview() 
+2020-08-22 00:27:54,544 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:28:02,009 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d493d6d8cb908a7576041d5bc2ba1ad5)] -> xpath: //div[@class='src__Box-sc-1sbtrzs-0 fsZetV']] 
+2020-08-22 00:28:03,375 INFO  [HomePage] reviewDate=Fri - Sep 25th, 2020 
+2020-08-22 00:28:04,574 INFO  [HomePage] modifiedDate= Sep 25 2020 
+2020-08-22 00:30:25,652 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:30:31,709 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:30:37,239 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:30:37,240 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:30:37,240 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:30:38,137 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:30:38,137 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:30:38,137 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:30:38,137 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:30:38,273 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e53f5e2cdb96830d8dd87e7e659cfb79)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:30:40,822 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:30:40,822 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:30:40,822 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:30:41,317 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e53f5e2cdb96830d8dd87e7e659cfb79)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:30:41,465 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:30:41,465 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:30:41,465 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:30:41,544 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e53f5e2cdb96830d8dd87e7e659cfb79)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:30:41,639 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:30:41,639 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:30:41,754 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e53f5e2cdb96830d8dd87e7e659cfb79)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:30:44,521 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:30:44,521 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:30:44,522 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:30:44,583 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e53f5e2cdb96830d8dd87e7e659cfb79)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:30:44,895 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:30:44,895 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:30:44,895 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:30:44,958 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e53f5e2cdb96830d8dd87e7e659cfb79)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:30:45,066 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:30:45,066 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:30:45,712 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (e53f5e2cdb96830d8dd87e7e659cfb79)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:34:58,381 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:35:04,057 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:35:08,815 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:35:08,816 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:35:08,816 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:35:09,466 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:35:09,466 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:35:09,466 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:35:09,466 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:35:09,552 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:35:10,666 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:35:10,666 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:35:10,666 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:35:11,247 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:35:11,364 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:35:11,364 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:35:11,365 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:35:12,205 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:35:12,299 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:35:12,299 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:35:12,367 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:35:12,663 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:35:12,663 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:35:12,663 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:35:12,718 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:35:13,039 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:35:13,039 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:35:13,039 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:35:13,111 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:35:15,221 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:35:15,221 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:35:15,287 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:35:17,455 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:35:17,455 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:35:17,455 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:35:17,557 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:35:17,798 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:35:17,950 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:35:21,525 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:35:21,525 INFO  [HomePage] inside noThanks() 
+2020-08-22 00:35:21,525 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:35:21,608 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //span[text()='No Thanks']] 
+2020-08-22 00:35:21,784 INFO  [HomePage] inside flightList() 
+2020-08-22 00:35:21,784 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:35:21,865 INFO  [WebActions] Webelement founded = [[[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (101e4ce37b66c8f4afa3dc4569985e47)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']]] 
+2020-08-22 00:40:14,942 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:40:21,791 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:40:27,677 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:40:27,677 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:40:27,677 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:40:28,508 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:40:28,508 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:40:28,508 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:40:28,508 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:28,578 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:40:30,027 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:40:30,027 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:40:30,027 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:31,030 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:40:31,794 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:40:31,794 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:40:31,794 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:31,874 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:40:31,952 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:40:31,952 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:32,000 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:40:32,294 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:40:32,294 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:40:32,294 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:32,344 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:40:32,598 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:40:32,598 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:40:32,598 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:32,706 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:40:33,823 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:40:33,824 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:33,907 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:40:35,056 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:40:35,056 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:40:35,056 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:35,197 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:40:35,426 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:40:35,538 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:40:39,676 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:40:39,676 INFO  [HomePage] inside noThanks() 
+2020-08-22 00:40:39,676 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:39,779 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //span[text()='No Thanks']] 
+2020-08-22 00:40:39,942 INFO  [HomePage] inside selectFlight() 
+2020-08-22 00:40:39,942 INFO  [HomePage] inside flightList() 
+2020-08-22 00:40:39,942 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:40,034 INFO  [WebActions] Webelement founded = [[[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']]] 
+2020-08-22 00:40:49,027 INFO  [HomePage] inside getReviewPageDate() 
+2020-08-22 00:40:50,555 INFO  [HomePage] inside dateReview() 
+2020-08-22 00:40:50,557 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:40:57,925 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (d2b47beed90f875ca40d79f2a9ebf2dc)] -> xpath: //div[@class='src__Box-sc-1sbtrzs-0 fsZetV']] 
+2020-08-22 00:40:59,621 INFO  [HomePage] reviewDate=Fri - Sep 25th, 2020 
+2020-08-22 00:40:59,628 INFO  [HomePage] modifiedDate= Sep 25 2020 
+2020-08-22 00:42:09,246 INFO  [FlightsBooking] actualDate=25-09-2020 
+2020-08-22 00:42:10,160 INFO  [FlightsBooking] expectedDate=25-8-2020 
+2020-08-22 00:43:35,080 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:43:41,723 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:43:50,751 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:43:50,751 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:43:50,751 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:43:51,917 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:43:51,917 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:43:51,917 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:43:51,917 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:43:52,030 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (31b4dd03448528697e392460b3365f21)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:43:53,695 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:43:53,695 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:43:53,695 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:43:54,593 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (31b4dd03448528697e392460b3365f21)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:43:54,716 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:43:54,716 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:43:54,716 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:43:56,724 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (31b4dd03448528697e392460b3365f21)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:43:56,836 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:43:56,836 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:43:56,898 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (31b4dd03448528697e392460b3365f21)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:43:57,263 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:43:57,263 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:43:57,264 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:43:57,317 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (31b4dd03448528697e392460b3365f21)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:43:57,598 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:43:57,599 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:43:57,599 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:43:57,727 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (31b4dd03448528697e392460b3365f21)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:43:58,892 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:43:58,892 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:44:30,543 ERROR [WebActions] Webelement not founded Exception = Expected condition failed: waiting for visibility of element located by By.xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='08']/a[text()='25'] (tried for 10 second(s) with 500 milliseconds interval) 
+2020-08-22 00:53:30,647 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:53:37,744 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:53:42,974 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:53:42,974 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:53:42,974 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:53:43,928 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:53:43,928 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:53:43,928 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:53:43,928 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:53:44,039 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:53:48,830 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:53:48,830 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:53:48,830 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:53:49,365 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:53:49,576 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:53:49,576 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:53:49,576 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:53:50,394 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:53:50,536 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:53:50,537 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:53:50,596 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:53:50,910 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:53:50,911 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:53:50,911 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:53:50,962 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:53:51,221 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:53:51,221 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:53:51,221 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:53:51,321 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:53:52,426 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:53:52,426 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:53:52,487 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:53:53,713 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:53:53,713 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:53:53,713 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:53:53,883 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:53:54,241 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:53:54,525 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:53:58,483 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:53:58,483 INFO  [HomePage] inside noThanks() 
+2020-08-22 00:53:58,483 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:53:58,607 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //span[text()='No Thanks']] 
+2020-08-22 00:53:58,785 INFO  [HomePage] inside selectFlight() 
+2020-08-22 00:53:58,786 INFO  [HomePage] inside flightList() 
+2020-08-22 00:53:58,786 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:53:58,862 INFO  [WebActions] Webelement founded = [[[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (b349692e056f3b981f3d2a7219106b2a)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']]] 
+2020-08-22 00:55:24,349 INFO  [WebActions] inside openBrowser() method 
+2020-08-22 00:55:30,707 INFO  [WebActions] chrome browser initialized 
+2020-08-22 00:55:36,571 INFO  [FlightsBooking] oneWayFlightsBooking test case started 
+2020-08-22 00:55:36,571 INFO  [HomePage] inside verifyHomePage() 
+2020-08-22 00:55:36,571 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:55:38,151 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:55:38,152 INFO  [HomePage] inside menuFlightsClick() 
+2020-08-22 00:55:38,152 INFO  [HomePage] inside menuFlights() 
+2020-08-22 00:55:38,152 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:38,212 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //a[text()='Flights']] 
+2020-08-22 00:55:39,390 INFO  [HomePage] inside radioOneWaySelect() 
+2020-08-22 00:55:39,390 INFO  [HomePage] inside radioOneWay() 
+2020-08-22 00:55:39,390 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:39,959 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //input[@id='tripTypeOW']//parent::label/span[@class='tgl-btn']] 
+2020-08-22 00:55:40,085 INFO  [HomePage] inside enterDepartureCity() 
+2020-08-22 00:55:40,085 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:55:40,085 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:40,153 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:55:40,239 INFO  [HomePage] inside txtbxFrom() 
+2020-08-22 00:55:40,239 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:40,288 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //input[@id='from1']] 
+2020-08-22 00:55:41,899 INFO  [HomePage] inside enterArrivalCity() 
+2020-08-22 00:55:41,900 INFO  [HomePage] inside txtbxTo() 
+2020-08-22 00:55:41,900 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:41,979 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //input[@id='to1']] 
+2020-08-22 00:55:42,399 INFO  [HomePage] inside selectDepartureDate() 
+2020-08-22 00:55:42,400 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:55:42,400 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:42,455 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //div[@id='dates']] 
+2020-08-22 00:55:43,563 INFO  [HomePage] inside departureDate() 
+2020-08-22 00:55:43,563 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:43,658 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //table[@class='ui-datepicker-calendar']/tbody/tr[*]/td[@data-month='8']/a[text()='25']] 
+2020-08-22 00:55:44,834 INFO  [HomePage] inside searchFlightsClick() 
+2020-08-22 00:55:44,834 INFO  [HomePage] inside btnSearch() 
+2020-08-22 00:55:44,835 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:44,914 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //button[@type='submit']] 
+2020-08-22 00:55:45,081 INFO  [HomePage] inside verifyPopup() 
+2020-08-22 00:55:45,195 INFO  [WebActions] inside isElementPresent() method 
+2020-08-22 00:55:48,816 INFO  [WebActions]  isElementPresent() sucess 
+2020-08-22 00:55:48,817 INFO  [HomePage] inside noThanks() 
+2020-08-22 00:55:48,817 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:48,870 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //span[text()='No Thanks']] 
+2020-08-22 00:55:49,389 INFO  [HomePage] inside selectFlight() 
+2020-08-22 00:55:49,389 INFO  [HomePage] inside flightList() 
+2020-08-22 00:55:49,389 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:49,485 INFO  [WebActions] Webelement founded = [[[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']], [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //ol[@data-hk='fareOptionCollection']/li[1]/div[@data-hk='fareOption']]] 
+2020-08-22 00:55:52,159 INFO  [HomePage] inside getReviewPageDate() 
+2020-08-22 00:55:52,159 INFO  [HomePage] inside dateReview() 
+2020-08-22 00:55:52,159 INFO  [WebActions] inside getElement() method 
+2020-08-22 00:55:53,694 INFO  [WebActions] Webelement founded = [[ChromeDriver: chrome on WINDOWS (2a5ec52e79d9ce657985e999cac22e5c)] -> xpath: //div[@class='src__Box-sc-1sbtrzs-0 fsZetV']] 
+2020-08-22 00:55:53,722 INFO  [HomePage] reviewDate=Fri - Sep 25th, 2020 
+2020-08-22 00:55:53,722 INFO  [HomePage] modifiedDate= Sep 25 2020 
+2020-08-22 00:55:57,275 INFO  [FlightsBooking] actualDate=25-09-2020 
+2020-08-22 00:55:57,275 INFO  [FlightsBooking] expectedDate=25-08-2020 

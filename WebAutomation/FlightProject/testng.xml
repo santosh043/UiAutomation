@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FlightsSuite">
+ <parameter name="browser" value="chrome" /> 
+ 
+  <test  name="Test">  
+    <parameter name="departureCity" value="Bangalore, India" /> 
+    <parameter name="arrivalCity" value="Mumbai, India" /> 
+     <parameter name="departureDate" value="25-08-2020" />      
+    <classes> 
+    <class name="testcases.FlightsBooking"/>      
+    </classes>
+  </test>  
+</suite> 
